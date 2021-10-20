@@ -14,7 +14,7 @@ body{
     padding-left: 5%;
 }
 .text-color{
-    color: orange;
+    color: yellowgreen;
 }
 .link-color{
     padding: 10px 40px;
@@ -41,4 +41,33 @@ h1{
 .dream-area-part img{
     width: 100%;
 
+}
+#experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5%;
+}
+.experience-area-part{
+    display: flex;
+}
+.experience-area-part h3{
+    color: yellowgreen;
+}
+.experience-area-part div{
+    box-shadow: 5px 7px 40px burlywood;
+    height: 80%;
+    margin: 15px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,gray,orange);
+    border-image-slice: 1;
+    padding: 10px;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,green,purple);
+    border-image-slice: 1; 
+    padding: 10px;
 }
